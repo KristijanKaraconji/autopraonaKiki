@@ -1,0 +1,284 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("autopraona1.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.hUsluge{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: rgba(0, 167, 255, 0.8);
+    
+    border-radius: 20px;
+    
+    
+}
+.usluge1{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.usluge1 ul li {
+    margin: 20px;
+    width: 400px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(0, 167, 255, 0.8);
+    
+    list-style-type: circle;
+}
+.usluge1 ul li a {
+    text-decoration: none;
+}
+
+
+.divMenu {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid red;
+
+}
+
+.telefon {
+    padding: 5px 25px;
+    color: white;
+    font-size: 12px;
+    border-bottom: 1px dotted white;
+    text-decoration: none;
+
+
+}
+
+.l1 a {
+
+    color: white;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 12px;
+}
+
+.l1 a:hover {
+    border-bottom: 3px solid red;
+
+}
+
+.mItem {
+    list-style: none;
+    margin: auto;
+    padding: auto;
+}
+
+.mItem li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+.logo {
+    background-image: url("kiki_logo.png");
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    right: 10px;
+
+}
+
+.divNaziv {
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+
+#ime {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#naziv {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 20px;
+    position: absolute;
+    top: 30px;
+    border-radius: 0px 30px;
+    animation: 5s ease 1s infinite beat;
+}
+
+.zak {
+
+    color: black;
+    font-weight: bold;
+    background-color: rgba(0, 167, 255, 0.8);
+    margin: 10px 20px;
+    padding: 0px 10px;
+    border-radius: 30px;
+}
+
+@keyframes beat {
+
+    0%,
+    50%,
+    100% {
+        transform: scale(1, 1);
+    }
+
+    30%,
+    80% {
+        transform: scale(0.92, 0.95);
+    }
+}
+
+.divSlika1 {
+    margin: 10px 20px;
+    width: 90%;
+    height: 500px;
+    display: flex;
+
+}
+
+.slika1 {
+
+    float: left;
+    width: 600px;
+    height: 400px;
+    background-image: url('autopraona4.jpg');
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    opacity: 70%;
+
+}
+
+#textKiki {
+    
+    padding: 10px;
+    margin: 0px 20px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 167, 255, 0.8);
+    border-radius: 30px;
+    font-size: 22px;
+
+}
+
+.poprecna {
+    height: 30px;
+    width: 100%;
+    border-bottom: 2px solid red;
+}
+
+.slike {
+    margin-top: 20px;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.slika5 {
+    background-image: url('autopraona5.jpg');
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin: 5px;
+
+}
+
+.slika6 {
+    background-image: url('autopraona6.jpg');
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.slika7 {
+    background-image: url('autopraona7.jpg');
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-top: 2px solid red;
+    text-align: center;
+    padding: 10px 0px;
+
+
+}
+@media only screen and (max-width: 420px) {
+    body {
+      background-color: lightblue;
+      padding: 0px;
+      margin: 0px;
+    }
+    .telefon{
+        display: none;
+    }
+    .divMenu{
+        font-size:12px;
+    }
+    #ime{
+        display: none;
+    }
+    #naziv{
+        width: 150px;
+        height: 30px;
+        font-size:16px;
+    }
+    .divSlika1{
+        display:block;
+        height: 870px;
+    }
+    .slika1{
+        width: 150px;
+        height: 100px;
+        margin-left:10px ;
+
+    }
+    #textKiki{
+        font-size:16px;
+        width: 100%;
+        margin-left: 10px;
+        height: 470px;
+        width: 350px;
+    }
+    
+  }
+
+   

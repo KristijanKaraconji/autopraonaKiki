@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+     background-image: url("autopraona1.jpg");
+    
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+    
+     
+}
+
+.divMenu {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid red;
+    
+}
+
+.telefon {
+    padding: 5px 25px;
+    color: white;
+    font-size: 12px;
+    border-bottom: 1px dotted white;
+    text-decoration: none;
+
+
+}
+
+.l1 a {
+
+    color: white;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 12px;
+}
+
+.l1 a:hover {
+    border-bottom: 3px solid red;
+
+}
+
+.mItem {
+    list-style: none;
+    margin: auto;
+    padding: auto;
+}
+
+.mItem li {
+    display: inline;
+    margin: 0px 10px;
+}
+.naslov{
+    width: 90%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+#text1:hover{
+   transform: scale(1.2);
+ 
+}
+
+#ime {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.logo{
+    background-image: url("kiki_logo.png");
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    right: 10px;
+  
+}
+#naslov1{
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px dashed red;
+    border-radius: 25px;
+}
+#text1{
+    padding: 10px;
+    font-weight: bold;
+    margin-right:300px ;
+    margin-left: 300px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.8) ;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+.tabla{
+    width: 100%;
+    height: 500px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.tabla table{
+    width: 100%;
+    margin-right:300px ;
+    margin-left: 300px;
+    background-color: rgba(255, 255, 255, 0.8); ;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 25px;
+}
+.tabla table tr td{
+    border: 1px solid red;
+}
+.tabla table th{
+    text-align: center;
+}
+.logo:hover{
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {transform: rotate(180deg) scale(1,2);}
+  }
+.footer {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin-top:200px;
+    background-color: black;
+    color: white;
+    border-top:2px solid red ;
+    text-align: center;
+    padding: 10px 0px;
+    
+     
+ }

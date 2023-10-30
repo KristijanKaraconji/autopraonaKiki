@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("autopraona1.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+#ispis {
+    display: none;
+    border: 2px dashed red;
+    border-radius: 25px;
+    height: 20%;
+    background-color: white;
+    padding: 15px;
+  }
+
+.divMenu {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid red;
+
+}
+
+.telefon {
+    padding: 5px 25px;
+    color: white;
+    font-size: 12px;
+    border-bottom: 1px dotted white;
+    text-decoration: none;
+
+
+}
+
+.l1 a {
+
+    color: white;
+    font-weight: bold;
+    padding: 5px 25px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 12px;
+}
+
+.l1 a:hover {
+    border-bottom: 3px solid red;
+
+}
+
+.mItem {
+    list-style: none;
+    margin: auto;
+    padding: auto;
+}
+
+.mItem li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+#ime {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.divNaslov {
+    width: 90%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    background-image: url("kiki_logo.png");
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    right: 10px;
+
+}
+
+.divNaziv {
+    height: 90px;
+    width: 520px;
+    display: flex;
+}
+
+#naslov1 {
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px dashed red;
+    border-radius: 25px;
+}
+
+.form1 {
+    width: 85%;
+    height: 1000px;
+    display: flex;
+    margin: 20px 100px;
+    justify-content: center;
+
+}
+.form1 form label{
+    font-weight: bold;
+    font-size:20px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+.form1 form{
+    margin-right:80px;
+    
+}
+.form1 form input{
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.form1 form #potvrdi{
+    width: 120px;
+    height: 40px;
+    border-radius:25px ;
+    
+    background-color:rgba(255, 255, 255, 0.8);
+}
+.footer {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin-top:200px;
+    background-color: black;
+    color: white;
+    border-top:2px solid red ;
+    text-align: center;
+    padding: 10px 0px;
+    
+     
+ }
+
